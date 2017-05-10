@@ -11,8 +11,9 @@
     border-radius: 100%;
     background: #f84342;
     border: 1px solid #F7F7F7;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
     margin: 10px 10px;
     text-align: center;
     color: #FFF;
@@ -37,7 +38,9 @@
 .links a {
   color: black;
   font-size: 25px;
-  border-bottom: 1px solid #dfdfdf
+  border-bottom: 1px solid #dfdfdf;
+  font-family: 'arsenalregular', sans-serif;
+  font-weight: bold;
 }
 
 header {
@@ -46,4 +49,14 @@ header {
 
 hr {
   clear: both;
+}
+
+h1 {
+  font-family: 'arsenalregular', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'arsenalitalic', sans-serif;
 }
